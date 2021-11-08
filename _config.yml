@@ -1,1 +1,45 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-dinky
+lsi: false
+safe: true
+source: .
+incremental: false
+highlighter: rouge
+exclude: [ util ]
+gist:
+  noscript: false
+kramdown:
+  math_enginne: mathjax
+  syntax_highlighter: rouge
+plugins:
+  - jekyll-coffeescript
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+  - jekyll-theme-dinky
+readme_index:
+  enabled: true
+  remove_originals: false
+  with_frontmatter: false
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "page"
+  -
+    scope:
+        path: "index.md"
+    values:
+        layout: "default"
+collections:
+  lectures:
+    output: true
+    permalink: /:collection/:name
+  assignments:
+    output: true
+    permalink: /:collection/:name
