@@ -1,0 +1,14 @@
+lecnum,date,lecture,lecture_slug,assignment,assignment_slug
+1,,Basics,basics,Your First Knitr,your_first_knitr
+2,,Data Viz & Exploration,data_viz_1,The Many Faces of PCA,pca
+3,,Data Wrangling,data_wrangling,Volcanos and Clustergrams,volcano_cluster
+4,,Programming,programming,Count Distributions,count_distributions
+5,,Biological Data Types,data_types,Modular Differential Expression,diff_exp
+6,,Data Viz 2,data_viz_2,Visualizing Gene Networks,network_viz
+7,,Data Exploration 2/Modeling,data_exploration,TBD,tbd
+8,,Core Bioconductor,bioconductor,TBD,tbd
+9,,Bioconductor Packages,bioconductor_packages,TBD,tbd
+10,,Toolifying R,toolifying,Making a R Command Line Tool,cli_tool
+11,,SoftwaRe EngineeRing,engineering,Basic R Package,r_package
+12,,Communicating Results,communication,Standardized Pipeline Reports,pipeline_report
+13,,RShiny,rshiny,Interactive Analysis and Plotting,interactive_plotting
